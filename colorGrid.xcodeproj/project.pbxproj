@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		AAFADA552AB60F0A00E588C5 /* colorGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFADA542AB60F0A00E588C5 /* colorGridApp.swift */; };
-		AAFADA572AB60F0A00E588C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFADA562AB60F0A00E588C5 /* ContentView.swift */; };
+		AAFADA572AB60F0A00E588C5 /* BasicGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFADA562AB60F0A00E588C5 /* BasicGrid.swift */; };
 		AAFADA592AB60F0B00E588C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFADA582AB60F0B00E588C5 /* Assets.xcassets */; };
 		AAFADA5C2AB60F0B00E588C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFADA5B2AB60F0B00E588C5 /* Preview Assets.xcassets */; };
+		AAFADA632AB62E6400E588C5 /* MultiTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFADA622AB62E6400E588C5 /* MultiTabView.swift */; };
+		AAFADA652AB62FBF00E588C5 /* WebViewCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFADA642AB62FBF00E588C5 /* WebViewCore.swift */; };
+		AAFADA672AB6304F00E588C5 /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFADA662AB6304F00E588C5 /* GridViewModel.swift */; };
+		AAFADA692AB6308C00E588C5 /* ShowGridFromFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFADA682AB6308C00E588C5 /* ShowGridFromFileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AAFADA512AB60F0A00E588C5 /* colorGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFADA542AB60F0A00E588C5 /* colorGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorGridApp.swift; sourceTree = "<group>"; };
-		AAFADA562AB60F0A00E588C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAFADA562AB60F0A00E588C5 /* BasicGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicGrid.swift; sourceTree = "<group>"; };
 		AAFADA582AB60F0B00E588C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAFADA5B2AB60F0B00E588C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAFADA622AB62E6400E588C5 /* MultiTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTabView.swift; sourceTree = "<group>"; };
+		AAFADA642AB62FBF00E588C5 /* WebViewCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCore.swift; sourceTree = "<group>"; };
+		AAFADA662AB6304F00E588C5 /* GridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
+		AAFADA682AB6308C00E588C5 /* ShowGridFromFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowGridFromFileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				AAFADA542AB60F0A00E588C5 /* colorGridApp.swift */,
-				AAFADA562AB60F0A00E588C5 /* ContentView.swift */,
+				AAFADA562AB60F0A00E588C5 /* BasicGrid.swift */,
+				AAFADA622AB62E6400E588C5 /* MultiTabView.swift */,
+				AAFADA662AB6304F00E588C5 /* GridViewModel.swift */,
+				AAFADA682AB6308C00E588C5 /* ShowGridFromFileView.swift */,
+				AAFADA642AB62FBF00E588C5 /* WebViewCore.swift */,
 				AAFADA582AB60F0B00E588C5 /* Assets.xcassets */,
 				AAFADA5A2AB60F0B00E588C5 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAFADA572AB60F0A00E588C5 /* ContentView.swift in Sources */,
+				AAFADA632AB62E6400E588C5 /* MultiTabView.swift in Sources */,
+				AAFADA572AB60F0A00E588C5 /* BasicGrid.swift in Sources */,
+				AAFADA652AB62FBF00E588C5 /* WebViewCore.swift in Sources */,
+				AAFADA692AB6308C00E588C5 /* ShowGridFromFileView.swift in Sources */,
+				AAFADA672AB6304F00E588C5 /* GridViewModel.swift in Sources */,
 				AAFADA552AB60F0A00E588C5 /* colorGridApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

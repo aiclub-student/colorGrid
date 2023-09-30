@@ -9,7 +9,7 @@ import SwiftUI
 
 import SwiftUI
 
-struct BasicGrid: View {
+struct BasicGridView: View {
     let grid: [[Int]]
     let gridSize = 64
     
@@ -33,7 +33,7 @@ struct BasicGrid: View {
                         ForEach(0..<gridSize, id: \.self) { column in
                             Rectangle()
                                 .fill(colorForNumber(number: grid[row][column]))
-                                .frame(width: 10, height: 10) // adjust frame size as necessary
+                                .frame(width: 3, height: 3) // adjust frame size as necessary
                         }
                     }
                 }
